@@ -17,7 +17,7 @@ Ağustos 2026'da LFCS sınavını geçtim. Hazırlanırken Türkçe kaynağın �
 | Bölüm | Sınav ağırlığı | Durum |
 |---|---|---|
 | [01 - İşletim ve Dağıtım](01-isletim-ve-dagitim/) | %25 | Hazırlanıyor |
-| [02 - Ağ Yönetimi](02-ag-yonetimi/) | %25 | Hazırlanıyor |
+| [02 - Ağ Yönetimi](02-ag-yonetimi/) | %25 | Tamamlandı |
 | [03 - Depolama](03-depolama/) | %20 | Hazırlanıyor |
 | [04 - Temel Komutlar](04-temel-komutlar/) | %20 | Hazırlanıyor |
 | [05 - Kullanıcılar ve Gruplar](05-kullanicilar-ve-gruplar/) | %10 | Tamamlandı |
