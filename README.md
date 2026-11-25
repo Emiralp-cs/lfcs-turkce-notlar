@@ -20,7 +20,7 @@ Bu repoda gerçek sınav soruları yoktur (LFCS sınavı gizlilik sözleşmesine
 | [02 - Ağ Yönetimi](02-ag-yonetimi/) | %25 | Hazırlanıyor |
 | [03 - Depolama](03-depolama/) | %20 | Hazırlanıyor |
 | [04 - Temel Komutlar](04-temel-komutlar/) | %20 | Hazırlanıyor |
-| [05 - Kullanıcılar ve Gruplar](05-kullanicilar-ve-gruplar/) | %10 | Hazırlanıyor |
+| [05 - Kullanıcılar ve Gruplar](05-kullanicilar-ve-gruplar/) | %10 | Tamamlandı |
 
 ## Sınav hakkında kısaca
 
