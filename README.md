@@ -1,5 +1,7 @@
 # LFCS Türkçe Notlar
 
+![Lisans](https://img.shields.io/badge/lisans-CC%20BY%204.0-blue) ![Ubuntu](https://img.shields.io/badge/denendi-Ubuntu%2024.04-orange)
+
 Linux Foundation Certified System Administrator (LFCS) sınavına hazırlananlar için Türkçe konu anlatımları ve uygulamalı alıştırmalar.
 
 Ağustos 2026'da LFCS sınavını geçtim. Hazırlanırken Türkçe kaynağın çok az olduğunu gördüm, bu repoyu o eksiği biraz olsun kapatmak için hazırlıyorum.
