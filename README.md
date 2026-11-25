@@ -12,8 +12,6 @@ Ağustos 2026'da LFCS sınavını geçtim. Hazırlanırken Türkçe kaynağın �
 - Her konuda denenmiş komutlar ve örnek senaryolar
 - Kendi başına çözebileceğin alıştırmalar
 
-Bu repoda gerçek sınav soruları yoktur (LFCS sınavı gizlilik sözleşmesine tabidir) ve herhangi bir kursun içeriği kopyalanmamıştır.
-
 ## İçindekiler
 
 | Bölüm | Sınav ağırlığı | Durum |
