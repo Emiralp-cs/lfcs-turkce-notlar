@@ -1,6 +1,6 @@
 # 🐧 LFCS Türkçe Notlar
 
-![Lisans](https://img.shields.io/badge/lisans-CC%20BY%204.0-blue) ![Ubuntu](https://img.shields.io/badge/denendi-Ubuntu%2024.04-orange) ![Durum](https://img.shields.io/badge/bölümler-5%2F5%20tamamlandı-brightgreen)
+![Lisans](https://img.shields.io/badge/lisans-CC0%201.0-blue) ![Ubuntu](https://img.shields.io/badge/denendi-Ubuntu%2024.04-orange) ![Durum](https://img.shields.io/badge/bölümler-5%2F5%20tamamlandı-brightgreen)
 
 Linux Foundation Certified System Administrator (LFCS) sınavına hazırlananlar için Türkçe konu anlatımları ve uygulamalı alıştırmalar.
 
@@ -100,4 +100,4 @@ Hata veya eksik görürsen issue açabilir ya da pull request gönderebilirsin.
 
 ## 📄 Lisans
 
-[CC BY 4.0](LICENSE): kaynak göstererek paylaşabilir ve uyarlayabilirsin.
+[CC0 1.0](LICENSE): Bu notlar kamu malıdır. İzin almadan, kaynak göstermeden kopyalayabilir, değiştirebilir, paylaşabilir ve ticari dahil her amaçla kullanabilirsin. Kaynak göstermek zorunlu değil, ama yaparsan sevinirim.
