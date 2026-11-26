@@ -14,6 +14,7 @@ Ağustos 2026'da LFCS sınavını geçtim. Hazırlanırken Türkçe kaynağın �
 - Sınavın resmi konu başlıklarının **tamamını** kapsayan Türkçe anlatımlar. Her notun başında hangi resmi maddeye karşılık geldiği yazıyor.
 - Ubuntu 24.04 üzerinde **denenmiş** komutlar ve gerçek çıktılar. Denenemeyen kısımlar her notta açıkça belirtildi.
 - Her konunun sonunda **sık yapılan hatalar** ve **çözümlü alıştırmalar**
+- [Tüm alıştırmalar](alistirmalar/): notlardaki 280 alıştırmanın hepsi ve çözümleri, bölüm bölüm tek yerde
 - [Sınav ipuçları](sinav-ipuclari.md): sınav ortamı, görev metnini okumak, doğrulama ve zaman yönetimi
 
 ## 📚 İçindekiler
@@ -27,6 +28,8 @@ Ağustos 2026'da LFCS sınavını geçtim. Hazırlanırken Türkçe kaynağın �
 | [05 - Ağ Yönetimi](05-ag-yonetimi/) | %25 | Tamamlandı |
 
 Bölümler öğrenme sırasına göre dizildi: önce her konuda kullanılan temel komutlar ve izinler, en sonda en karmaşık konular olan ağ yönetimi. Resmi sınav sayfası bölümleri ağırlığa göre sıralar (İşletim ve Dağıtım, Ağ Yönetimi, Depolama, Temel Komutlar, Kullanıcılar ve Gruplar). Konu başlıkları aynıdır, değişen sadece sıra.
+
+Bütün bölümlerin alıştırmaları ve çözümleri [📝 Tüm Alıştırmalar](alistirmalar/) klasöründe de bir arada.
 
 ## 🎯 Resmi müfredat
 
@@ -57,7 +60,7 @@ Sınavda internet yoktur, ama sunucudaki `man` sayfaları ve `/usr/share/doc` al
 ## 🧪 Deneme sınavı ve pratik
 
 - [Killer.sh LFCS simülatörü](https://killer.sh/lfcs): Gerçek sınava benzeyen bir arayüzde 20 senaryo ve çözümleri. Linux Foundation'dan alınan LFCS sınavına [iki deneme hakkı dahildir](https://training.linuxfoundation.org/blog/exam-simulators/). Her deneme 36 saat açık kalır. Simülatör genelde gerçek sınavdan daha zor bulunur, puanın düşük çıkarsa moralini bozma.
-- Bu repodaki her notun sonundaki alıştırmalar. Önce kendin çöz, sonra çözüme bak.
+- Bu repodaki 280 alıştırma: her notun sonunda ya da hepsi bir arada [Tüm Alıştırmalar](alistirmalar/) klasöründe. Önce kendin çöz, sonra çözüme bak.
 
 ## 🖥️ Kendi laboratuvarını kur
 
@@ -95,7 +98,7 @@ Ağ alıştırmalarında (SSH, NFS, ters proxy) birbirine bağlanan iki makine g
 1. [Resmi müfredatı](#-resmi-müfredat) oku ve neyle karşılaşacağını gör.
 2. Bölümleri sırayla çalış. Komutları okumak yerine kendi sanal makinende yaz, çok daha kalıcı oluyor.
 3. Her notun sonundaki alıştırmaları çözüme bakmadan dene.
-4. Sınavdan birkaç hafta önce [sınav ipuçlarını](sinav-ipuclari.md) oku ve Killer.sh simülatörünü çöz.
+4. Sınavdan birkaç hafta önce [tüm alıştırmaları](alistirmalar/) baştan çöz, [sınav ipuçlarını](sinav-ipuclari.md) oku ve Killer.sh simülatörünü çöz.
 
 ## 🤝 Katkı
 
