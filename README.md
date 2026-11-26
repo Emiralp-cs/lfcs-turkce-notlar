@@ -16,11 +16,13 @@ Ağustos 2026'da LFCS sınavını geçtim. Hazırlanırken Türkçe kaynağın �
 
 | Bölüm | Sınav ağırlığı | Durum |
 |---|---|---|
-| [01 - İşletim ve Dağıtım](01-isletim-ve-dagitim/) | %25 | Tamamlandı |
-| [02 - Ağ Yönetimi](02-ag-yonetimi/) | %25 | Tamamlandı |
-| [03 - Depolama](03-depolama/) | %20 | Tamamlandı |
-| [04 - Temel Komutlar](04-temel-komutlar/) | %20 | Tamamlandı |
-| [05 - Kullanıcılar ve Gruplar](05-kullanicilar-ve-gruplar/) | %10 | Tamamlandı |
+| [01 - Temel Komutlar](01-temel-komutlar/) | %20 | Tamamlandı |
+| [02 - Kullanıcılar ve Gruplar](02-kullanicilar-ve-gruplar/) | %10 | Tamamlandı |
+| [03 - İşletim ve Dağıtım](03-isletim-ve-dagitim/) | %25 | Tamamlandı |
+| [04 - Depolama](04-depolama/) | %20 | Tamamlandı |
+| [05 - Ağ Yönetimi](05-ag-yonetimi/) | %25 | Tamamlandı |
+
+Bölümler öğrenme sırasına göre dizildi: önce her konuda kullanılan temel komutlar ve izinler, en sonda en karmaşık konular olan ağ yönetimi. Resmi sınav sayfası bölümleri ağırlığa göre sıralar (İşletim ve Dağıtım, Ağ Yönetimi, Depolama, Temel Komutlar, Kullanıcılar ve Gruplar). Konu başlıkları aynıdır, değişen sadece sıra.
 
 ## Sınav hakkında kısaca
 

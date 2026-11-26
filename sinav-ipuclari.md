@@ -58,7 +58,7 @@ Resmi talimatlarda açıkça yazanlar:
 - **8080/tcp, 4505/tcp ve 4506/tcp portlarına gelen bağlantıyı engelleme.** Güvenlik duvarı görevlerinde (`ufw default deny incoming` gibi) bunu unutmak kolaydır.
 - **`certerminal` sürecine dokunma.** Sınavın biter.
 
-Bunlara ek olarak kendi önerim: Bir görev sunucusunu yeniden başlatman gerekiyorsa (ör. kernel parametresi veya fstab sonrası doğrulama için), önce yaptığın değişikliğin açılışı bozmayacağından emin ol. fstab'ı `findmnt --verify` ile denetle ([Mount ve fstab](03-depolama/03-mount-ve-fstab.md)). Açılmayan bir sunucuda kalan görevleri de kaybedersin.
+Bunlara ek olarak kendi önerim: Bir görev sunucusunu yeniden başlatman gerekiyorsa (ör. kernel parametresi veya fstab sonrası doğrulama için), önce yaptığın değişikliğin açılışı bozmayacağından emin ol. fstab'ı `findmnt --verify` ile denetle ([Mount ve fstab](04-depolama/03-mount-ve-fstab.md)). Açılmayan bir sunucuda kalan görevleri de kaybedersin.
 
 ---
 
@@ -102,7 +102,7 @@ Görevler genelde dört kalıptan birine uyar:
 
 **Kur ve yapılandır.** Boş bir durumdan bir şey oluştur: kullanıcı, servis, LV, NFS paylaşımı, cron görevi. Doğru komutu bilmek çoğu zaman yeter. Kalıcılık kısmını atlama.
 
-**Bozuk olanı düzelt.** Bir servis başlamıyor, bir disk bağlanmıyor, bir kullanıcı giriş yapamıyor. Sebebi bulmak asıl iştir. Önce günlüğe bak: `systemctl status`, `journalctl -u servis -n 30`, `journalctl -p err -b`. Notlardaki "Sık yapılan hatalar" bölümleri bu tür görevlere hazırlık içindir. Örnekler: [Servis Oluşturma ve Sorun Giderme](04-temel-komutlar/13-servis-olusturma-ve-sorun-giderme.md), [Arızadan Kurtarma](01-isletim-ve-dagitim/02-arizadan-kurtarma.md).
+**Bozuk olanı düzelt.** Bir servis başlamıyor, bir disk bağlanmıyor, bir kullanıcı giriş yapamıyor. Sebebi bulmak asıl iştir. Önce günlüğe bak: `systemctl status`, `journalctl -u servis -n 30`, `journalctl -p err -b`. Notlardaki "Sık yapılan hatalar" bölümleri bu tür görevlere hazırlık içindir. Örnekler: [Servis Oluşturma ve Sorun Giderme](01-temel-komutlar/13-servis-olusturma-ve-sorun-giderme.md), [Arızadan Kurtarma](03-isletim-ve-dagitim/02-arizadan-kurtarma.md).
 
 **Bul ve kaydet.** Bir bilgiyi bulup bir dosyaya yaz: en çok bellek kullanan sürecin PID'i, belirli izinlere sahip dosyalar, bir paketin hangi dosyayı içerdiği. Çıktının biçimine dikkat: görev sadece PID istiyorsa dosyada başlık satırı olmasın (`ps -o pid= ...`, `find ... > dosya`).
 
