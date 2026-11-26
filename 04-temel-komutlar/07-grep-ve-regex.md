@@ -30,7 +30,7 @@ Senaryo: Ekibin uygulaması `uygulama.log` dosyasına kayıt yazıyor. Hataları
 4. [Satır başı ve sonu: ^ ve $](#4-satır-başı-ve-sonu--ve-)
 5. [Herhangi bir karakter: .](#5-herhangi-bir-karakter-)
 6. [Karakter kümeleri: [...] ve [^...]](#6-karakter-kümeleri--ve-)
-7. [Tekrar: *, +, ?, {n,m}](#7-tekrar-----nm)
+7. [Tekrar: *, +, ?, {n,m}](#7-tekrar----nm)
 8. [Temel ve genişletilmiş regex: grep -E](#8-temel-ve-genişletilmiş-regex-grep--e)
 9. [Seçenek ve gruplama: | ve ( )](#9-seçenek-ve-gruplama--ve--)
 10. [Deseni adım adım kurmak: IP adresi](#10-deseni-adım-adım-kurmak-ip-adresi)

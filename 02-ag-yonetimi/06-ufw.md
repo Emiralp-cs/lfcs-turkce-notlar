@@ -1,5 +1,7 @@
 # UFW ile Paket Filtreleme
 
+> **Resmi sınav maddesi:** Configure packet filtering, port redirection, and NAT
+
 Güvenlik duvarı (firewall), istenmeyen ağ trafiğinin sunucudaki servislere ulaşmasını engeller. Bir servis kendisine gelen paketi hiç görmezse, o servisteki bir güvenlik açığı da o paketle istismar edilemez.
 
 İki tür güvenlik duvarı vardır:

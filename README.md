@@ -16,15 +16,16 @@ Ağustos 2026'da LFCS sınavını geçtim. Hazırlanırken Türkçe kaynağın �
 
 | Bölüm | Sınav ağırlığı | Durum |
 |---|---|---|
-| [01 - İşletim ve Dağıtım](01-isletim-ve-dagitim/) | %25 | Hazırlanıyor |
+| [01 - İşletim ve Dağıtım](01-isletim-ve-dagitim/) | %25 | Tamamlandı |
 | [02 - Ağ Yönetimi](02-ag-yonetimi/) | %25 | Tamamlandı |
-| [03 - Depolama](03-depolama/) | %20 | Hazırlanıyor |
-| [04 - Temel Komutlar](04-temel-komutlar/) | %20 | Hazırlanıyor |
+| [03 - Depolama](03-depolama/) | %20 | Tamamlandı |
+| [04 - Temel Komutlar](04-temel-komutlar/) | %20 | Tamamlandı |
 | [05 - Kullanıcılar ve Gruplar](05-kullanicilar-ve-gruplar/) | %10 | Tamamlandı |
 
 ## Sınav hakkında kısaca
 
 - Süre 2 saat ve sınav tamamen uygulamalı: terminalde verilen görevleri çözüyorsun.
+- Sınav ortamı, görev metinlerini okumak ve zaman yönetimi için: [Sınav İpuçları](sinav-ipuclari.md)
 - Güncel konu listesi ve kurallar için resmi sayfa: [LFCS - The Linux Foundation](https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/)
 
 ## Nasıl kullanılır

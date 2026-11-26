@@ -1,5 +1,7 @@
 # Kullanıcı Hesapları
 
+> **Resmi sınav maddesi:** Create and manage local user and group accounts
+
 Bu bölümde yerel kullanıcı hesaplarını oluşturmayı, değiştirmeyi ve silmeyi ele alıyoruz. Örnekler boyunca küçük bir yazılım ekibinin sunucusunu yönettiğimizi düşünelim:
 
 - **ayse**: ekipteki geliştirici

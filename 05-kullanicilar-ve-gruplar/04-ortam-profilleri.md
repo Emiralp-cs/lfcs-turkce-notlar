@@ -1,5 +1,7 @@
 # Ortam Profilleri
 
+> **Resmi sınav maddesi:** Manage personal and system-wide environment profiles
+
 Kullanıcı bir terminal açtığında ya da giriş yaptığında, shell bazı dosyaları okuyarak ortamı hazırlar: hangi dizinlerde program aranacak, hangi değişkenler tanımlı olacak, yeni kullanıcının ev dizininde hangi dosyalar bulunacak. Bu bölümde bu dosyaları ve hangisinin ne zaman kullanılacağını ele alıyoruz.
 
 Senaryomuz:

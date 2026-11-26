@@ -1,5 +1,7 @@
 # Ters Proxy ve Yük Dengeleme (Nginx)
 
+> **Resmi sınav maddesi:** Implement reverse proxies and load balancers
+
 **Ters proxy** (reverse proxy), istemciler ile asıl uygulama sunucuları arasında duran bir aracıdır. İstemci sadece proxy'yi görür, proxy isteği arkadaki uygun sunucuya iletir, cevabı da istemciye geri verir.
 
 ```
@@ -30,10 +32,10 @@ Senaryo: Ekibin sunucusunda Nginx çalışıyor. Arkada uygulamayı çalıştır
 ## İçindekiler
 
 1. [Nginx'in dosya düzeni](#1-nginxin-dosya-düzeni)
-2. [İlk ters proxy](#2-ilk-ters-proxy)
+2. [Basit bir ters proxy](#2-basit-bir-ters-proxy)
 3. [Varsayılan site neden kaldırılmalı?](#3-varsayılan-site-neden-kaldırılmalı)
 4. [Belirli bir yolu yönlendirmek: location](#4-belirli-bir-yolu-yönlendirmek-location)
-5. [İstemci bilgilerini iletmek: proxy_params](#5-istemci-bilgilerini-iletmek-proxy_params)
+5. [Gerçek istemci bilgisini iletmek: proxy_params](#5-gerçek-istemci-bilgisini-iletmek-proxy_params)
 6. [Değişiklikleri test etmek ve uygulamak](#6-değişiklikleri-test-etmek-ve-uygulamak)
 7. [Yük dengeleme: upstream](#7-yük-dengeleme-upstream)
 8. [Dağıtım yöntemleri: weight ve least_conn](#8-dağıtım-yöntemleri-weight-ve-least_conn)
@@ -67,7 +69,7 @@ Kurulumdan sonra `sites-enabled/` içinde `default` adlı bir site vardır ve 80
 
 ---
 
-## 2. İlk ters proxy
+## 2. Basit bir ters proxy
 
 Bütün istekler app1'e gitsin:
 
@@ -190,7 +192,7 @@ Hiçbir `location`'a uymayan istekler (bu örnekte `/`) proxy'ye gitmez. Nginx o
 
 ---
 
-## 5. İstemci bilgilerini iletmek: proxy_params
+## 5. Gerçek istemci bilgisini iletmek: proxy_params
 
 Arka uç sunucu bağlantıyı Nginx'ten aldığı için, istemcinin kim olduğunu doğrudan bilemez. 3. bölümdeki çıktıda arka uç `Host=10.0.0.11:8000` ve `X-Real-IP=None` görüyordu.
 

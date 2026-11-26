@@ -1,5 +1,7 @@
 # Ağ Yapılandırması: ip ve Netplan
 
+> **İlgili resmi sınav maddeleri:** Configure IPv4 and IPv6 networking and hostname resolution · Configure static routing
+
 Ubuntu'da ağ ayarı yapmanın iki katmanı var:
 
 - **`ip` komutu:** Değişiklik anında uygulanır ama **geçicidir**. Yeniden başlatınca kaybolur. Bir şeyi hızlıca denemek ve sorun gidermek için kullanılır.
@@ -190,7 +192,7 @@ ip route get 8.8.8.8        ->  8.8.8.8 via 192.168.10.1 dev enp0s8 src 192.168.
 
 `192.168.50.7` kendi route'unu kullandı, `8.8.8.8` ise varsayılan route'a düştü.
 
-### İki varsayılan route ve metric
+### Birden fazla varsayılan route ve metric
 
 Birden fazla varsayılan route olabilir. Hangisinin kullanılacağına `metric` karar verir, **küçük olan kazanır**:
 
@@ -424,7 +426,7 @@ resolvectl status enp0s8
 ```
 
 > [!NOTE]
-> Sunucunun başka bir arayüzü DHCP'den varsayılan route alıyorsa, `ip route` çıktısında iki `default` satırı görmek normaldir. [4. bölümdeki](#iki-varsayılan-route-ve-metric) gibi metric'i küçük olan kullanılır.
+> Sunucunun başka bir arayüzü DHCP'den varsayılan route alıyorsa, `ip route` çıktısında iki `default` satırı görmek normaldir. [4. bölümdeki](#birden-fazla-varsayılan-route-ve-metric) gibi metric'i küçük olan kullanılır.
 
 ---
 

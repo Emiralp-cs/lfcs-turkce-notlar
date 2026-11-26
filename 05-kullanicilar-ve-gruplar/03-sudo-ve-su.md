@@ -1,5 +1,7 @@
 # sudo ve su
 
+> **İlgili resmi sınav maddesi:** Create and manage local user and group accounts
+
 Sistemde root yetkisi gerektiren işler için iki yol var:
 
 - **sudo**: Kendi şifrenle, izin verilen komutları root olarak çalıştırırsın.

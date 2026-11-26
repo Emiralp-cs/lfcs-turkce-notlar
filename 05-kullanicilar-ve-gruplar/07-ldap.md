@@ -1,5 +1,7 @@
 # LDAP ile Merkezi Kullanıcı Hesapları
 
+> **Resmi sınav maddesi:** Configure the system to use LDAP user and group accounts
+
 Şimdiye kadar oluşturduğumuz kullanıcılar sadece kendi sunucularında, `/etc/passwd` dosyasında var. Ekip büyüyüp sunucu sayısı onlara çıkınca her kişiyi her sunucuda ayrı ayrı açmak, şifre değişikliklerini ve işten ayrılanları takip etmek zorlaşır. Ansible gibi araçlar bu işi otomatikleştirse de hesaplar yine her sunucuda ayrı ayrı durur.
 
 **LDAP** (Lightweight Directory Access Protocol) bu sorunu merkezi bir dizinle çözer. Kullanıcılar ve gruplar tek bir LDAP sunucusunda tutulur, bütün Linux sunucuları hesapları oradan okur. Bir kişiyi eklemek, şifresini değiştirmek ya da silmek tek bir yerden yapılır.
@@ -16,7 +18,7 @@ Senaryo: Ekibe uzaktan çalışan iki kişi katılıyor, **elif** ve **kerem**. 
 1. [Temel kavramlar](#1-temel-kavramlar)
 2. [Deneme için LDAP sunucusu kurmak](#2-deneme-için-ldap-sunucusu-kurmak)
 3. [Ön kontrol: kullanıcılar henüz yok](#3-ön-kontrol-kullanıcılar-henüz-yok)
-4. [İstemciyi kurmak: libnss-ldapd](#4-istemciyi-kurmak-libnss-ldapd)
+4. [LDAP istemcisini kurmak: libnss-ldapd](#4-ldap-istemcisini-kurmak-libnss-ldapd)
 5. [Yapılandırma dosyalarını kontrol etmek](#5-yapılandırma-dosyalarını-kontrol-etmek)
 6. [LDAP kullanıcılarını doğrulamak](#6-ldap-kullanıcılarını-doğrulamak)
 7. [LDAP şifresiyle giriş ve otomatik ev dizini](#7-ldap-şifresiyle-giriş-ve-otomatik-ev-dizini)
@@ -177,7 +179,7 @@ id: 'kerem': no such user
 
 ---
 
-## 4. İstemciyi kurmak: libnss-ldapd
+## 4. LDAP istemcisini kurmak: libnss-ldapd
 
 ```bash
 sudo apt install libnss-ldapd

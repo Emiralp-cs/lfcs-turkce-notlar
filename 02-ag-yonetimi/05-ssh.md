@@ -1,5 +1,7 @@
 # SSH Sunucusu ve İstemcisi
 
+> **Resmi sınav maddesi:** Configure the OpenSSH server and client
+
 SSH, uzaktaki bir Linux sunucusunu güvenli şekilde yönetmenin standart yolu. İki tarafı var:
 
 - **Sunucu (`sshd`):** Yönetilecek makinede çalışır, gelen bağlantıları kabul eder.
@@ -27,7 +29,7 @@ Senaryo: Ekibin sunucusunun iki adresi var: ofis ağında `192.168.10.20`, inter
 8. [Diğer sık kullanılan ayarlar](#8-diğer-sık-kullanılan-ayarlar)
 9. [SSH anahtarı oluşturmak ve sunucuya eklemek](#9-ssh-anahtarı-oluşturmak-ve-sunucuya-eklemek)
 10. [Dosya izinleri](#10-dosya-izinleri)
-11. [İstemci ayarları: ssh_config ve ~/.ssh/config](#11-istemci-ayarları-ssh_config-ve-sshconfig)
+11. [SSH istemci ayarları: ssh_config ve ~/.ssh/config](#11-ssh-istemci-ayarları-ssh_config-ve-sshconfig)
 12. [known_hosts ve "host key değişti" uyarısı](#12-known_hosts-ve-host-key-değişti-uyarısı)
 13. [Komut özeti](#13-komut-özeti)
 14. [Sık yapılan hatalar](#14-sık-yapılan-hatalar)
@@ -398,7 +400,7 @@ Güvenli değerler: dizin `700`, `authorized_keys` ve özel anahtar `600`, `conf
 
 ---
 
-## 11. İstemci ayarları: ssh_config ve ~/.ssh/config
+## 11. SSH istemci ayarları: ssh_config ve ~/.ssh/config
 
 ### ~/.ssh/config ile takma ad
 

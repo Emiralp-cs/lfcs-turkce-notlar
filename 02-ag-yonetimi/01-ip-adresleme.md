@@ -1,5 +1,7 @@
 # IP Adresleme: IPv4, IPv6 ve CIDR
 
+> **İlgili resmi sınav maddesi:** Configure IPv4 and IPv6 networking and hostname resolution
+
 Ağ ayarı yapmadan önce bir IP adresinin nasıl okunduğunu bilmek gerekir: adresin hangi kısmı ağı, hangi kısmı cihazı gösteriyor, iki makine aynı ağda mı, bir ağa kaç cihaz sığar. Bu dosya teori ağırlıklı. Öğrendiklerimizi sonraki dosyada Netplan ile sunucuya uygulayacağız.
 
 Örneklerde ekibimizin sunucusu ofis ağında `192.168.10.20` adresini kullanıyor.

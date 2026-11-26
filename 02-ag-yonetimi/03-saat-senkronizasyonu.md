@@ -1,5 +1,7 @@
 # Saat Dilimi ve NTP ile Saat Senkronizasyonu
 
+> **Resmi sınav maddesi:** Set and synchronize system time using time servers
+
 Bilgisayarların donanım saati zamanla kayar. Bir sunucu birkaç hafta içinde saniyeler hatta dakikalar sapabilir. Bu küçük gibi görünen fark ciddi sorunlara yol açar:
 
 - **Loglar:** Birden fazla sunucunun loglarını yan yana koyduğunda olayların sırası karışır.

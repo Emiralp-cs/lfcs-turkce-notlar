@@ -1,5 +1,7 @@
 # Kaynak Limitleri
 
+> **Resmi sınav maddesi:** Configure user resource limits
+
 Bir sunucuyu birden fazla kişi kullanıyorsa, tek bir kullanıcının yanlış yazılmış bir script'le binlerce süreç açması veya diski dev bir dosyayla doldurması herkesi etkiler. Kaynak limitleriyle kullanıcı ve grup başına üst sınırlar koyarız.
 
 Senaryomuz:

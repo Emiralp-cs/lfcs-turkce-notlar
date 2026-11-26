@@ -1,5 +1,7 @@
 # Bridge ve Bonding
 
+> **Resmi sınav maddesi:** Configure bridge and bonding devices
+
 İkisi de birden fazla ağ arayüzünü tek bir sanal arayüzün altında toplar, ama amaçları farklıdır:
 
 - **Bridge (köprü):** Birden fazla ağ bağlantısını **tek bir ağ** haline getirir. Sunucu, arayüzleri arasında bir switch gibi davranır.

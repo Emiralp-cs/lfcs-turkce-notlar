@@ -9,9 +9,9 @@ Senaryo: `/srv/izin` altında ekibin ortak dosyaları var. `gelistirici` grubund
 
 ## İçindekiler
 
-1. [İzinleri okumak](#1-izinleri-okumak)
+1. [Dosya izinlerini okumak](#1-dosya-izinlerini-okumak)
 2. [Dosyada ve dizinde izinlerin anlamı](#2-dosyada-ve-dizinde-izinlerin-anlamı)
-3. [İzinler hangi sırayla kontrol edilir?](#3-izinler-hangi-sırayla-kontrol-edilir)
+3. [Kontrol sırası: hangi izin uygulanır?](#3-kontrol-sırası-hangi-izin-uygulanır)
 4. [chmod: sembolik yöntem](#4-chmod-sembolik-yöntem)
 5. [chmod: sayısal (octal) yöntem](#5-chmod-sayısal-octal-yöntem)
 6. [Sahipliği değiştirmek: chown ve chgrp](#6-sahipliği-değiştirmek-chown-ve-chgrp)
@@ -27,7 +27,7 @@ Senaryo: `/srv/izin` altında ekibin ortak dosyaları var. `gelistirici` grubund
 
 ---
 
-## 1. İzinleri okumak
+## 1. Dosya izinlerini okumak
 
 ```bash
 ls -l plan.txt
@@ -93,7 +93,7 @@ Mert dosyanın içeriğini değiştiremedi ama dosyayı tamamen sildi. Bunu enge
 
 ---
 
-## 3. İzinler hangi sırayla kontrol edilir?
+## 3. Kontrol sırası: hangi izin uygulanır?
 
 Linux bir erişimde şu sırayla bakar ve **ilk eşleşen** kategoriyi uygular:
 

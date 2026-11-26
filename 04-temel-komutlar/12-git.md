@@ -1,5 +1,7 @@
 # Git ile Sürüm Kontrolü
 
+> **Resmi sınav maddesi:** Basic Git Operations
+
 Git, dosyalardaki değişiklikleri kaydeden bir **sürüm kontrol sistemi**dir. Her kayıtta (commit) kimin, ne zaman, neyi, neden değiştirdiği saklanır. Bir şey bozulduğunda eski bir hale dönebilir, farklı fikirleri ayrı dallarda deneyebilir, aynı dosyalar üzerinde birden fazla kişi birlikte çalışabilirsiniz. Sadece kod için değil, sunucu yapılandırmaları ve script'ler için de kullanılır.
 
 Git **dağıtık** çalışır: herkesin bilgisayarında projenin tüm geçmişiyle birlikte tam bir kopyası bulunur. Ortak bir sunucudaki (GitHub, GitLab veya şirketin kendi sunucusu) **uzak repo**, kopyaların birbirleriyle eşitlendiği buluşma noktasıdır.

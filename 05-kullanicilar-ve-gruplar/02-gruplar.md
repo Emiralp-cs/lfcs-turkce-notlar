@@ -1,5 +1,7 @@
 # Gruplar
 
+> **Resmi sınav maddesi:** Create and manage local user and group accounts
+
 Ekipteki herkesin aynı proje dizinine yazabilmesi gerekiyor. İzni kullanıcılara tek tek vermek yerine, hepsini bir gruba koyup izni gruba veririz. Ekibe biri katıldığında onu gruba eklemek, ayrıldığında da çıkarmak yeterli olur.
 
 Önceki bölümdeki senaryoya devam ediyoruz:

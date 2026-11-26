@@ -23,7 +23,7 @@ Senaryo: `/srv/arama` altında raporlar, loglar ve yedekler var. Disk dolmak üz
 3. [Türe ve derinliğe göre](#3-türe-ve-derinliğe-göre)
 4. [Boyuta göre: -size](#4-boyuta-göre--size)
 5. [Zamana göre: -mmin, -mtime, -newer](#5-zamana-göre--mmin--mtime--newer)
-6. [İzne ve sahibe göre](#6-izne-ve-sahibe-göre)
+6. [Sahibe ve izne göre](#6-sahibe-ve-izne-göre)
 7. [Koşulları birleştirmek: ve, veya, değil](#7-koşulları-birleştirmek-ve-veya-değil)
 8. [Bulunanlara komut uygulamak: -exec ve -delete](#8-bulunanlara-komut-uygulamak--exec-ve--delete)
 9. [Hatalar ve sembolik linkler](#9-hatalar-ve-sembolik-linkler)
@@ -218,7 +218,7 @@ find /srv/arama -type f -newer loglar/orta.log
 
 ---
 
-## 6. İzne ve sahibe göre
+## 6. Sahibe ve izne göre
 
 ### -perm
 

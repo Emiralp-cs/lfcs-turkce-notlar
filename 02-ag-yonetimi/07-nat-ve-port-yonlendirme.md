@@ -1,5 +1,7 @@
 # NAT ve Port Yönlendirme
 
+> **Resmi sınav maddesi:** Configure packet filtering, port redirection, and NAT
+
 Bir Linux sunucusu iki ağ arasında router gibi çalışabilir: bir arayüzü internete, diğeri iç ağa bakar. Bu durumda iki ihtiyaç ortaya çıkar:
 
 - **Port yönlendirme (DNAT):** İnternetten sunucunun bir portuna gelen bağlantıyı iç ağdaki bir makineye aktarmak.

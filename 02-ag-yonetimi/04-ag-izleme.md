@@ -1,5 +1,7 @@
 # Ağ İzleme ve Sorun Giderme
 
+> **Resmi sınav maddesi:** Monitor and troubleshoot networking
+
 "Siteye bağlanamıyorum" şikayeti geldiğinde sorun birçok yerde olabilir: servis çalışmıyordur, yanlış adresi dinliyordur, güvenlik duvarı engelliyordur, route yoktur ya da isim çözümlenmiyordur. Bu dosyada sunucuda neyin hangi portu dinlediğini görmeyi, servisleri yönetmeyi ve bağlantı sorununu adım adım daraltmayı ele alıyoruz.
 
 Senaryo: Ekibin sunucusunda (`192.168.10.20`) iki servis çalışıyor:

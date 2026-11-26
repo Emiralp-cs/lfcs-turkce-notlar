@@ -1,5 +1,7 @@
 # ACL ve Dosya Öznitelikleri
 
+> **Resmi sınav maddesi:** Configure and manage ACLs
+
 Standart Linux izinleri üç kategoriyle çalışır: sahip, grup ve diğerleri. Çoğu zaman bu yeter, ama bazen bir dosyaya **tek bir kişiye daha** özel izin vermek gerekir. Kişiyi gruba eklemek ona grubun bütün dosyalarına erişim verir, sahipliği değiştirmek de başkalarının işini bozar. ACL (Access Control List) bu durumda devreye girer.
 
 Bu bölümün ikinci yarısında da dosya özniteliklerini (`chattr`) ele alıyoruz. Bunlar izinlerden bağımsız olarak bir dosyanın değiştirilmesini, root için bile, engelleyebilir.
@@ -18,7 +20,7 @@ Senaryomuz devam ediyor. `/srv/proje` dizini `gelistirici` grubuna ait ve izinle
 
 1. [ACL'e bakmak: getfacl](#1-acle-bakmak-getfacl)
 2. [Kullanıcıya veya gruba izin vermek](#2-kullanıcıya-veya-gruba-izin-vermek)
-3. [İzinler hangi sırayla kontrol edilir?](#3-izinler-hangi-sırayla-kontrol-edilir)
+3. [Kontrol sırası: ACL varken hangi izin uygulanır?](#3-kontrol-sırası-acl-varken-hangi-izin-uygulanır)
 4. [mask: etkili izin](#4-mask-etkili-izin)
 5. [ACL girişlerini kaldırmak](#5-acl-girişlerini-kaldırmak)
 6. [Dizinlere toplu uygulama: -R ve X](#6-dizinlere-toplu-uygulama--r-ve-x)
@@ -107,7 +109,7 @@ yazdi
 
 ---
 
-## 3. İzinler hangi sırayla kontrol edilir?
+## 3. Kontrol sırası: ACL varken hangi izin uygulanır?
 
 Linux bir erişimde girişleri şu sırayla kontrol eder ve **ilk eşleşen** kuralı uygular:
 

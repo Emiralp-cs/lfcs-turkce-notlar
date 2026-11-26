@@ -1,5 +1,7 @@
 # SSL/TLS ve OpenSSL
 
+> **Resmi sınav maddesi:** Work with SSL certificates
+
 Bir tarayıcı `https://` ile başlayan bir siteye bağlandığında iki şeyden emin olmak ister: karşısındaki sunucu gerçekten iddia ettiği sunucu mu, ve aradaki trafiği başkası okuyabilir mi? Bunu sağlayan protokol **TLS**, sunucunun kimliğini kanıtlayan belge ise **sertifika**dır. Linux'ta anahtar üretmek, sertifika istemek, oluşturmak ve incelemek için kullanılan araç `openssl`'dir.
 
 Senaryo: Şirketin iç ağında `panel.sirket.lan` adında bir izleme paneli kuruluyor. Önce hızlıca test etmek için kendi kendine imzalı (self-signed) bir sertifika oluşturacağız. Sonra şirket içi küçük bir sertifika otoritesi (CA) kurup panelin sertifikasını onunla imzalayacağız ve bağlantıyı test edeceğiz.

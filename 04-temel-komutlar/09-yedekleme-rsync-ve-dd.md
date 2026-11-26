@@ -26,7 +26,7 @@ Senaryo: Web sitesi `site/` dizininde duruyor. Her gece yedek sunucusuna (`yedek
 6. [Silinen dosyalar: --delete ve -n](#6-silinen-dosyalar---delete-ve--n)
 7. [Diğer işe yarar seçenekler](#7-diğer-işe-yarar-seçenekler)
 8. [dd ile disk imajı almak](#8-dd-ile-disk-imajı-almak)
-9. [İmajı diske geri yüklemek](#9-imajı-diske-geri-yüklemek)
+9. [Disk imajını geri yüklemek](#9-disk-imajını-geri-yüklemek)
 10. [dd ile dosya oluşturmak](#10-dd-ile-dosya-oluşturmak)
 11. [Komut özeti](#11-komut-özeti)
 12. [Sık yapılan hatalar](#12-sık-yapılan-hatalar)
@@ -295,7 +295,7 @@ Denemede 64 MiB'lık disk 8,5 MB'a indi. `of=` yazılmayınca dd çıktıyı ekr
 
 ---
 
-## 9. İmajı diske geri yüklemek
+## 9. Disk imajını geri yüklemek
 
 `if` ve `of`'un yerini değiştirmen yeterli:
 
