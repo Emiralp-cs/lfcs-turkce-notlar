@@ -40,7 +40,7 @@ Sınav belirli bir dağıtıma bağlı değildir. Bu repodaki bütün örnekler 
 
 Sınav kurallarını, ortamı ve teknik talimatları sınavdan önce mutlaka oku:
 
-- [LFCS ve LFCE sınav talimatları](https://docs.linuxfoundation.org/tc-docs/certification/instructions-lfcs-and-lfce): Sınav ortamı, sunuculara bağlanma, yasak işlemler, kullanılabilecek belgeler
+- [LFCS sınav talimatları](https://docs.linuxfoundation.org/tc-docs/certification/instructions-lfcs-and-lfce): Sınav ortamı, sunuculara bağlanma, yasak işlemler, kullanılabilecek belgeler
 - [Sınav hazırlık kontrol listesi](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2/exam-preparation-checklist): Kayıttan sonuca kadar adımlar (aday el kitabı)
 - [Sınav kuralları ve politikaları](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2/exam-rules-and-policies): Sınav sırasında nelere izin verildiği
 - [Sertifika SSS](https://training.linuxfoundation.org/about/faqs/certification-faq/): Sık sorulan sorular
