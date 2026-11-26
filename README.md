@@ -1,10 +1,13 @@
 # 🐧 LFCS Türkçe Notlar
 
-![Lisans](https://img.shields.io/badge/lisans-CC0%201.0-blue) ![Ubuntu](https://img.shields.io/badge/denendi-Ubuntu%2024.04-orange) ![Durum](https://img.shields.io/badge/bölümler-5%2F5%20tamamlandı-brightgreen)
+![Lisans](https://img.shields.io/badge/lisans-CC0%201.0-blue) ![Ubuntu](https://img.shields.io/badge/denendi-Ubuntu%2024.04-orange) ![Durum](https://img.shields.io/badge/b%C3%B6l%C3%BCmler-5%2F5%20tamamland%C4%B1-brightgreen) ![Ziyaret](https://komarev.com/ghpvc/?username=emiralp-cs-lfcs-turkce-notlar&label=ziyaret&color=blueviolet) ![Yıldız](https://img.shields.io/github/stars/Emiralp-cs/lfcs-turkce-notlar?style=social)
 
 Linux Foundation Certified System Administrator (LFCS) sınavına hazırlananlar için Türkçe konu anlatımları ve uygulamalı alıştırmalar.
 
 Ağustos 2026'da LFCS sınavını geçtim. Hazırlanırken Türkçe kaynağın çok az olduğunu gördüm, bu repoyu o eksiği biraz olsun kapatmak için hazırladım.
+
+> [!TIP]
+> Notlar işine yaradıysa sağ üstteki **⭐ Star** butonuna basarak destek olabilirsin. Yıldızlar, repoyu GitHub'da daha çok kişinin bulmasını sağlıyor.
 
 ## ✨ Bu repoda neler var
 
@@ -97,6 +100,10 @@ Ağ alıştırmalarında (SSH, NFS, ters proxy) birbirine bağlanan iki makine g
 ## 🤝 Katkı
 
 Hata veya eksik görürsen issue açabilir ya da pull request gönderebilirsin.
+
+## ⭐ Destek ol
+
+Repo işine yaradıysa bir yıldız vermen, LFCS'ye hazırlanan başka birinin de onu bulmasına yardımcı olur. Paylaşmak da aynı şekilde.
 
 ## 📄 Lisans
 
